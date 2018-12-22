@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.bg{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url('../img/game_bg.png') no-repeat;
+	background-size: 100% auto;
+}
+.score{
+	font-size: 40px;
+	color: #fff;
+	position: absolute;
+	top: 20px;
+	left: 150px;
+}
+.progress{
+	width: 360px;
+	height: 32px;
+	position: absolute;
+	top: 132px;
+    left: 126px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.progress img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+.imgWp{
+	width: 216px;
+	height: 202px;
+	position: absolute;
+	overflow: hidden;
+	/* background: red; */
+}
+.imgBtn{
+	width: 55%;
+	height: 65%;
+	position: absolute;
+	bottom: 15px;
+	left: 32px;
+	z-index: 1;
+	/* background: red; */
+}
+.imgWp1{
+	top: 320px;
+    left: 36px;
+}
+.imgWp2{
+	top: 442px;
+	left: 36px;
+}
+.imgWp3{
+	top: 588px;
+	left: 60px;
+}
+.imgWp4{
+	top: 228px;
+	left: 199px;
+}
+.imgWp5{
+	top: 383px;
+	left: 208px;
+}
+.imgWp6{
+	top: 547px;
+	left: 239px;
+}
+.imgWp7{
+	top: 284px;
+	left: 377px;
+}
+.imgWp8{
+	top: 422px;
+	left: 400px;
+}
+.imgWp9{
+	top: 591px;
+	left: 417px;
+}
+.imgWp img{
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 216px;
+}
